@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import static java.lang.Math.pow;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,15 +9,17 @@ public class Main {
         System.out.println("Write the x number");
         int x = input.nextInt();
 
-        System.out.println("Write the y number");
-        int y = input.nextInt();
+        /*System.out.println("Write the y number");
+        int y = input.nextInt();*/
 
-        int fx;
+        double fx;
 
-        if (y > 0) {
-            fx = x + 2;
+        if (x < -3) {
+            fx = pow(x, 2) + 1;
+        } else if ((x >= 0) && (x <= 3)) {
+            fx = x - 2;
         } else {
-            fx = 2 * x + 7;
+            fx = (2 * pow(x, 2) - 5 * x + 1);
         }
         System.out.println("fx = " + fx);
     }
