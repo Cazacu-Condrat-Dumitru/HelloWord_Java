@@ -1,20 +1,17 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        double a = 10;
-        double b = 20;
-        char c = 'A';
+        Scanner input = new Scanner(System.in);
+        System.out.println("Write an integer number");
+        int number = input.nextInt();
+        System.out.println("The integer number is: " + number);
 
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a / b);
-        System.out.println(a * b);
-        System.out.println(a % b);
-        System.out.println(++a);
-        System.out.println(a--);
-        System.out.println(b +++a);
-        System.out.println(a =='A');
-        System.out.println(b ==a);
+        System.out.println("Write an float number");
+        float numFloat = input.nextFloat();
+        System.out.println("The float number is: " + numFloat);
+
     }
 
 
