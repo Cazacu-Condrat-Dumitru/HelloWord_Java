@@ -5,23 +5,21 @@ import static java.lang.Math.pow;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Write the x number");
-        int x = input.nextInt();
+        int number = 29;
 
-        /*System.out.println("Write the y number");
-        int y = input.nextInt();*/
-
-        double fx;
-
-        if (x < -3) {
-            fx = pow(x, 2) + 1;
-        } else if ((x >= 0) && (x <= 3)) {
-            fx = x - 2;
-        } else {
-            fx = (2 * pow(x, 2) - 5 * x + 1);
+        switch (number) {
+            case 29:
+                System.out.println("Small");
+                break;
+                case 42:
+                    System.out.println("Medium");
+                    break;
+                    case 44:
+                        System.out.println("Small");
+                        break;
+                        default:
+                            System.out.println("Error");
         }
-        System.out.println("fx = " + fx);
     }
 
 
