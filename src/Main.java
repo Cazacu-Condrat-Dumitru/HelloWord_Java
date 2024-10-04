@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//Un robot se poate deplasa în 4 direcții (“S”-Sud, “N”-Nord, ”E”-Est, “V”-Vest)
-// și poate îndeplini 3 instrucțiuni: 0- continuă deplasarea,
-// 1 - la stânga, 2 - la dreapta.
-// De la tastieră se introduce simbolul direcției inițiale
-// a robotului și instrucțiunea ce trebuie îndeplinită.
-// Să se afișeze direcția de deplasare a robotului după îndeplinirea instrucțiunii
+    //Un robot se poate deplasa în 4 direcții (“S”-Sud, “N”-Nord, ”E”-Est, “V”-Vest)
+    // și poate îndeplini 3 instrucțiuni: 0- continuă deplasarea,
+    // 1 - la stânga, 2 - la dreapta.
+    // De la tastieră se introduce simbolul direcției inițiale
+    // a robotului și instrucțiunea ce trebuie îndeplinită.
+    // Să se afișeze direcția de deplasare a robotului după îndeplinirea instrucțiunii
         Scanner sc = new Scanner(System.in);
         System.out.println("Write the initial direction of the robot");
         String direction = String.valueOf(sc.next());
