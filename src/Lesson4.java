@@ -11,5 +11,10 @@ public class Lesson4 {
             System.out.println(j);
             j++;
         } while (j <= 10);
+
+        System.out.println("---------------------------------------------");
+        for (i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
     }
 }
